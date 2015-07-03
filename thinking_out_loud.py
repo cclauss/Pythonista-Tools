@@ -148,7 +148,7 @@ class {}AttrInfo(object):
                 value if len(str(value)) else "''")
                 for key, value in self.attr_values))
 
-if __name__=='__main__':
+if __name__== '__main__':
     for obj in _ui_objects:
         # only collect the attribute
         cls_info  = UIClassAttrInfo(obj)
