@@ -35,7 +35,7 @@ _attr_ignore = '''superview subviews transform content_view image_view
 # a entry of attribute:value will replace the default attribute.
 _attr_override = { 'font' : ('<system>', 18),
                    'tint_color' : "'white'",
-                   'date':None }
+                   'date' : None }
 
 def big_fail_hard_exit(func_name, param, exception):
     fmt = '{}\nwe should not get here: {}({})\n{}: {}'
